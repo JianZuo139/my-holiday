@@ -29,6 +29,14 @@ body {
 .content {
   margin: 0 20%;
 }
+.description {
+  flex-basis: 57%;
+  margin-left: 3%;
+  align-self: center;
+}
+.p-pic {
+  flex-basis: 40%;
+}
 h1,
 h2 {
   text-align: center;
@@ -53,6 +61,7 @@ h2 {
 }
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
 }
 img {
   width: 100%;
